@@ -1,0 +1,13 @@
+INDEX VERSION 1.127
+C:\Users\Trongnv\Documents\MyWorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\477216184.index
+\gwt20-rpc\src\main\java
+C:\Users\Trongnv\Documents\MyWorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3118597450.index
+\AtmosphereChat\src\main\resources
+C:\Users\Trongnv\Documents\MyWorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2556078775.index
+\gwt20-json\src\main\java
+C:\Users\Trongnv\Documents\MyWorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2489543669.index
+\atmosphere-spring-tiles\src\main\java
+C:\Users\Trongnv\Documents\MyWorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2708584777.index
+\atmosphere-spring-websocket\src\main\java
+C:\Users\Trongnv\Documents\MyWorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1394760540.index
+\gwt20-managed-rpc\src\main\java

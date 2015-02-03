@@ -1382,3 +1382,1517 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SESSION 2015-02-03 09:22:20.922 -----------------------------------------------
+eclipse.buildId=3.5.0.201404011654-RELEASE-e43
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.mylyn.tasks.core 1 0 2015-02-03 09:33:43.402
+!MESSAGE Migrating task repository credentials from keyring.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-02-03 09:33:43.704
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-02-03 09:33:43.708
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Trongnv'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 0 0 2015-02-03 09:33:47.158
+!MESSAGE Result of converting legacy STS 2.x workspace preferences to 3.x
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2015-02-03 09:33:47.158
+!MESSAGE Converted legacy STS plugin preferences
+!SUBENTRY 1 unknown 0 0 2015-02-03 09:33:47.158
+!MESSAGE OK
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2015-02-03 09:33:47.158
+!MESSAGE Converted legacy Roo plugin state locations
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2015-02-03 09:33:47.158
+!MESSAGE Converted legacy STS plugin state locations
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 09:34:11.508
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 09:34:11.510
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 09:34:11.513
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subclipse does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 09:34:11.531
+!MESSAGE CatalogItem org.eclipse.xtext.m2e.xtextConfigurator does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 09:36:33.050
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-02-03 09:40:22.507
+!MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-02-03 09:48:09.306
+!MESSAGE Invalid ZIP archive: C:\Users\Trongnv\.m2\repository\org\jgroups\jgroups\3.1.0.Final\jgroups-3.1.0.Final.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 09:49:34.026
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 09:49:34.028
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131: Plugin org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 09:49:43.203
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 09:49:43.207
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131: Plugin org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 09:50:33.771
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 09:50:33.774
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131: Plugin org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 09:50:33.777
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 09:50:33.783
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131: Plugin org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:18:51.650
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:18:51.654
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:18:51.657
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:18:51.660
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:18:51.664
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:18:51.667
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:18:51.670
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:04.862
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:04.866
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:04.869
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:04.873
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:04.876
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:04.880
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:04.883
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:19:11.124
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:19:11.127
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131: Plugin org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:19:11.130
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:19:11.134
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131: Plugin org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:16.315
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:16.317
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:16.319
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:16.321
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:16.323
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:16.325
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:16.327
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:26.825
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:26.828
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:26.830
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:26.832
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:26.834
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:26.836
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:19:26.837
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:22:47.488
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:22:47.490
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:22:47.492
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:22:47.494
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:22:47.496
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:22:47.498
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:22:47.500
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:25:50.081
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:25:50.100
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131: Plugin org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:25:50.105
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:25:50.109
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131: Plugin org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-02-03 10:25:53.926
+!MESSAGE Invalid ZIP archive: C:\Users\Trongnv\.m2\repository\org\jgroups\jgroups\3.1.0.Final\jgroups-3.1.0.Final.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:26:19.501
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:26:19.503
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131: Plugin org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:26:19.506
+!MESSAGE The POM for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:26:19.509
+!MESSAGE Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131: Plugin org.eclipse.jetty:jetty-maven-plugin:8.1.9.v20130131 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.eclipse.jetty:jetty-maven-plugin:jar:8.1.9.v20130131
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:29:04.497
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:29:04.500
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:29:04.502
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:29:04.504
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:29:04.505
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:29:04.507
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:29:04.509
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:33:20.340
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:33:20.343
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:33:20.345
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:33:20.347
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:33:20.348
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:33:20.350
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:33:20.352
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:33:23.489
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:33:23.491
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:33:23.493
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:33:23.495
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:33:23.497
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:33:23.499
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:33:23.501
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-02-03 10:33:33.393
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model for org.atmosphere.samples:atmosphere-rest-chat:2.3.0-SNAPSHOT
+[FATAL] Non-resolvable parent POM: Could not find artifact org.atmosphere.samples:atmosphere-samples:pom:2.3.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 3, column 13
+ for project org.atmosphere.samples:atmosphere-rest-chat:2.3.0-SNAPSHOT at C:\Users\Trongnv\Documents\rest-chat\pom.xml
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:52:29.694
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:52:29.697
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:52:29.699
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:52:29.701
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:52:29.703
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:52:29.705
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:52:29.707
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:53:15.366
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:53:15.370
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:53:16.457
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:53:16.464
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:53:29.456
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:53:29.458
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:53:29.460
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:53:29.462
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:53:29.464
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:53:29.466
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:53:29.468
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:53:30.509
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:53:30.511
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:53:30.514
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:53:30.516
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:53:30.519
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:53:30.521
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:53:30.523
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:53:44.245
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:53:44.254
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:57:42.376
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 10:57:42.382
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:58:57.210
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:58:57.214
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:58:57.217
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:58:57.221
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:58:57.224
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:58:57.227
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:58:57.230
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:35.266
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:35.268
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:35.270
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:35.272
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:35.274
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:35.276
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:35.278
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:37.313
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:37.316
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:37.318
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:37.320
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:37.323
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:37.325
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:37.328
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:58.479
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:58.483
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:58.485
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:58.488
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:58.491
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:58.493
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 10:59:58.495
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:00:16.374
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:00:16.377
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:00:16.379
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:00:16.381
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:00:16.382
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:00:16.384
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:00:16.386
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:03:09.276
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:03:09.278
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:03:09.280
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:03:09.282
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:03:09.284
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:03:09.286
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:03:09.288
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:03:20.616
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:03:20.621
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:03:20.623
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:03:20.626
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:03:20.628
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:03:20.631
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:03:20.634
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 11:03:26.459
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 11:03:26.468
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2015-02-03 11:03:36.272 -----------------------------------------------
+eclipse.buildId=3.5.0.201404011654-RELEASE-e43
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-02-03 11:03:52.866
+!MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 11:03:53.356
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 11:03:53.369
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-02-03 11:03:56.492
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-02-03 11:03:56.530
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Trongnv'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2015-02-03 11:04:30.919
+!MESSAGE Connection to http://www.nodeclipse.org/updates/p2.index failed on www.nodeclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: www.nodeclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(InetAddress.java:901)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1293)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1246)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1162)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:242)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:130)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:150)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:575)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1074)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.openStreams(HttpClientRetrieveFileTransfer.java:621)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadIndexFile(AbstractRepositoryManager.java:735)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:657)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:150)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:128)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:72)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2015-02-03 11:04:31.153
+!MESSAGE Unknown Host: http://www.nodeclipse.org/updates/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: www.nodeclipse.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1250)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1162)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:242)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:130)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:150)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:575)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2015-02-03 11:04:40.357
+!MESSAGE Connection to https://spring.io/blog.atom failed on Connection to https://spring.io refused. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connection to https://spring.io refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:150)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:575)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1074)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.openStreams(HttpClientRetrieveFileTransfer.java:621)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.read(FileReader.java:273)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.ide.eclipse.commons.internal.core.net.P2TransportService.stream(P2TransportService.java:139)
+	at org.springsource.ide.eclipse.commons.core.HttpUtil.stream(HttpUtil.java:165)
+	at org.springsource.ide.eclipse.dashboard.internal.ui.editors.AggregateFeedJob$1.run(AggregateFeedJob.java:145)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientSecureProtocolSocketFactory.performConnection(ECFHttpClientSecureProtocolSocketFactory.java:93)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientSecureProtocolSocketFactory.connectSocket(ECFHttpClientSecureProtocolSocketFactory.java:77)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2015-02-03 11:04:42.819
+!MESSAGE Connection to http://dist.springsource.com/release/TOOLS/update/3.6.3.RELEASE/e4.3/p2.index failed on dist.springsource.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: dist.springsource.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(InetAddress.java:901)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1293)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1246)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1162)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:242)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:130)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:150)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:575)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1074)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.openStreams(HttpClientRetrieveFileTransfer.java:621)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadIndexFile(AbstractRepositoryManager.java:735)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:657)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:150)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:128)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:72)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-02-03 11:04:43.044
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unknown Host: http://dist.springsource.com/release/TOOLS/update/3.6.3.RELEASE/e4.3/content.xml
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:192)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:66)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:88)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:150)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:128)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:72)
+Caused by: java.net.UnknownHostException: dist.springsource.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1250)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1162)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:242)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:130)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:150)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:575)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1006 2015-02-03 11:04:43.045
+!MESSAGE Unknown Host: http://dist.springsource.com/release/TOOLS/update/3.6.3.RELEASE/e4.3/content.xml
+!STACK 0
+java.net.UnknownHostException: dist.springsource.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1250)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1162)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:242)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:130)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:150)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:575)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:08:52.958
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:08:52.960
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:08:52.964
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:08:52.967
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:08:52.969
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:08:52.971
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:08:52.974
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:08:53.218
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:08:53.221
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:08:53.225
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:08:53.228
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:08:53.234
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:08:53.237
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:08:53.239
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:19.613
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:19.619
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:19.622
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:19.625
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:19.627
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:19.630
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:19.633
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 11:09:34.928
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 11:09:34.936
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:37.414
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:37.417
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:37.421
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:37.424
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:37.427
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:37.429
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:37.432
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:45.813
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:45.816
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:45.818
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:45.820
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:45.822
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:45.824
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 11:09:45.826
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2015-02-03 11:10:10.410
+!MESSAGE Connection to https://spring.io/blog.atom failed on Connection to https://spring.io refused. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connection to https://spring.io refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:150)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:575)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1074)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.openStreams(HttpClientRetrieveFileTransfer.java:621)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.read(FileReader.java:273)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.ide.eclipse.commons.internal.core.net.P2TransportService.stream(P2TransportService.java:139)
+	at org.springsource.ide.eclipse.commons.core.HttpUtil.stream(HttpUtil.java:165)
+	at org.springsource.ide.eclipse.dashboard.internal.ui.editors.AggregateFeedJob$1.run(AggregateFeedJob.java:145)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientSecureProtocolSocketFactory.performConnection(ECFHttpClientSecureProtocolSocketFactory.java:93)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientSecureProtocolSocketFactory.connectSocket(ECFHttpClientSecureProtocolSocketFactory.java:77)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2015-02-03 11:15:40.516
+!MESSAGE Connection to https://spring.io/blog.atom failed on Connection to https://spring.io refused. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connection to https://spring.io refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:150)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:575)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1074)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.openStreams(HttpClientRetrieveFileTransfer.java:621)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.read(FileReader.java:273)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.ide.eclipse.commons.internal.core.net.P2TransportService.stream(P2TransportService.java:139)
+	at org.springsource.ide.eclipse.commons.core.HttpUtil.stream(HttpUtil.java:165)
+	at org.springsource.ide.eclipse.dashboard.internal.ui.editors.AggregateFeedJob$1.run(AggregateFeedJob.java:145)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientSecureProtocolSocketFactory.performConnection(ECFHttpClientSecureProtocolSocketFactory.java:93)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientSecureProtocolSocketFactory.connectSocket(ECFHttpClientSecureProtocolSocketFactory.java:77)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2015-02-03 11:20:39.825
+!MESSAGE Connection to https://spring.io/blog.atom failed on spring.io. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: spring.io
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(InetAddress.java:901)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1293)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1246)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1162)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:242)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:130)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:150)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:575)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1074)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.openStreams(HttpClientRetrieveFileTransfer.java:621)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.read(FileReader.java:273)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.ide.eclipse.commons.internal.core.net.P2TransportService.stream(P2TransportService.java:139)
+	at org.springsource.ide.eclipse.commons.core.HttpUtil.stream(HttpUtil.java:165)
+	at org.springsource.ide.eclipse.dashboard.internal.ui.editors.AggregateFeedJob$1.run(AggregateFeedJob.java:145)
+	at java.lang.Thread.run(Thread.java:744)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2015-02-03 11:26:22.151
+!MESSAGE Connection to https://spring.io/blog.atom failed on Connection to https://spring.io refused. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connection to https://spring.io refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:150)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:575)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1074)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.openStreams(HttpClientRetrieveFileTransfer.java:621)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.read(FileReader.java:273)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.ide.eclipse.commons.internal.core.net.P2TransportService.stream(P2TransportService.java:139)
+	at org.springsource.ide.eclipse.commons.core.HttpUtil.stream(HttpUtil.java:165)
+	at org.springsource.ide.eclipse.dashboard.internal.ui.editors.AggregateFeedJob$1.run(AggregateFeedJob.java:145)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientSecureProtocolSocketFactory.performConnection(ECFHttpClientSecureProtocolSocketFactory.java:93)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientSecureProtocolSocketFactory.connectSocket(ECFHttpClientSecureProtocolSocketFactory.java:77)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 22 more
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:02.865
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:02.867
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:02.870
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:02.873
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:02.875
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:02.877
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:02.879
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:07.164
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:07.166
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:07.168
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:07.170
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:07.172
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:07.173
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:07.175
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 13:36:11.611
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 13:36:11.615
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:23.788
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:23.790
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:23.792
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:23.794
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:23.796
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:23.798
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:23.800
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:41.356
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:41.357
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:41.360
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:41.361
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:41.363
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:41.365
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:36:41.367
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:37:57.089
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:37:57.091
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:37:57.093
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:37:57.095
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:37:57.097
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:37:57.099
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:37:57.100
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:37:58.845
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:37:58.848
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:37:58.850
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:37:58.853
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:37:58.856
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:37:58.859
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:37:58.862
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:40:36.961
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:40:36.964
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:40:36.966
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:40:36.969
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:40:36.971
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:40:36.973
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:40:36.976
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 13:41:05.636
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 13:41:05.642
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:41:11.327
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:41:11.329
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:41:11.331
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:41:11.333
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:41:11.335
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:41:11.337
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:41:11.338
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 13:41:43.944
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 13:41:44.110
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:41:50.236
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:41:50.238
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:41:50.240
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:41:50.242
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:41:50.244
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:41:50.246
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:41:50.248
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:42:23.115
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:42:23.118
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:42:23.120
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:42:23.122
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:42:23.124
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:42:23.126
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 13:42:23.128
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 13:42:45.112
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 13:42:45.121
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 13:43:16.649
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 13:43:16.653
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 13:49:13.566
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 13:49:13.578
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:05:46.330
+!MESSAGE The POM for org.atmosphere:atmosphere-cdi:jar:2.1.0+ is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:05:47.525
+!MESSAGE The POM for org.atmosphere:atmosphere-cdi:jar:2.1.0+ is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:05:47.578
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:05:47.586
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:05:47.593
+!MESSAGE The POM for org.atmosphere:atmosphere-cdi:jar:2.1.0+ is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:05:47.602
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:05:48.747
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:05:48.752
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:05:52.135
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:05:52.137
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:05:52.139
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:05:52.141
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:05:52.143
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:05:52.144
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:05:52.146
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:05:57.957
+!MESSAGE The POM for org.atmosphere:atmosphere-cdi:jar:2.1.0+ is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:05:58.345
+!MESSAGE The POM for org.atmosphere:atmosphere-cdi:jar:2.1.0+ is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:05:58.417
+!MESSAGE The POM for org.atmosphere:atmosphere-cdi:jar:2.1.0+ is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:05:58.865
+!MESSAGE The POM for org.atmosphere:atmosphere-cdi:jar:2.1.0+ is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:05:58.886
+!MESSAGE The POM for org.atmosphere:atmosphere-cdi:jar:2.1.0+ is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:05:58.949
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:05:58.956
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:05:58.965
+!MESSAGE The POM for org.atmosphere:atmosphere-cdi:jar:2.1.0+ is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:10:24.931
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:10:24.937
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:10:24.947
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-02-03 15:10:24.990
+!MESSAGE Project read error
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-02-03 15:10:24.999
+!MESSAGE Project read error
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:10:26.119
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:10:26.124
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:11:15.334
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:11:15.342
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:12:08.479
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:12:08.488
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:12:51.136
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:12:51.145
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:13:03.262
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:13:03.264
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:13:03.266
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:13:03.268
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:13:03.270
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:13:03.272
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:13:03.274
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-02-03 15:13:08.834
+!MESSAGE Project read error
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-02-03 15:13:08.842
+!MESSAGE Project read error
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:13:09.247
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:13:09.254
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-02-03 15:13:09.268
+!MESSAGE Project read error
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-02-03 15:13:09.277
+!MESSAGE Project read error
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:13:45.526
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:13:45.532
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:14:25.300
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:14:25.310
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:14:45.433
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:14:45.447
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:17:31.208
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:17:31.210
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:17:31.212
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:17:31.214
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:17:31.216
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:17:31.218
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:17:31.220
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:17:37.225
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.all
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:17:37.227
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.sourcefolders
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:17:37.229
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.actions.refresh.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:17:37.231
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.DisableGradleNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:17:37.233
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.EnableDisableDependencyManagementActionDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:17:37.235
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.EnableDisableDSLSupportDelegate
+
+!ENTRY org.eclipse.ui 4 4 2015-02-03 15:17:37.237
+!MESSAGE Plug-in 'org.springsource.ide.eclipse.gradle.ui' contributed an invalid Menu Extension (Path: 'org.springsource.ide.eclipse.gradle.menu' is invalid): org.springsource.ide.eclipse.gradle.ui.actions.Console
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-02-03 15:17:42.819
+!MESSAGE Project read error
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-02-03 15:17:42.828
+!MESSAGE Project read error
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:17:43.202
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:17:43.206
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-02-03 15:17:43.219
+!MESSAGE Project read error
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-02-03 15:17:43.227
+!MESSAGE Project read error
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:19:49.275
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:19:49.282
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:19:49.292
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:19:50.455
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-02-03 15:19:50.460
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
