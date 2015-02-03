@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="atmosphere-spring-tiles"/>
+<aop-project name="AtmosphereChat"/>
 <aop-project name="atmosphere-spring-websocket"/>
 </aop-reference-model>

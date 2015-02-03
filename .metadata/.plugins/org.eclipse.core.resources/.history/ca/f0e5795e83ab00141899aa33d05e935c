@@ -1,0 +1,35 @@
+package demo.AtmosphereChat;
+
+@Controller  
+public class NotifyHandler {  
+  
+    @Autowired  
+    private NotificationService notificationService;  
+      
+    @RequestMapping(value = "/notify/{userId}")  
+    @ResponseStatus(HttpStatus.OK)  
+    @ResponseBody  
+    public List<String> watch(@PathVariable("userId") String userId,  
+                      HttpServletRequest request) throws Exception {  
+        //Atmosphere framework puts filter/servlet that adds ATMOSPHERE_RESOURCE to all requests  
+        AtmosphereResource resource = (AtmosphereResource) request.getAttribute(ApplicationConfig.ATMOSPHERE_RESOURCE);  
+  
+        //suspending resource to keep connection  
+        resource.suspend();  
+  
+        //find broadcaster, second parameter says to create broadcaster if it doesn't exist  
+        Broadcaster broadcaster = BroadcasterFactory.getDefault().lookup(userId,true);  
+  
+        //saving resource for notifications  
+        broadcaster.addAtmosphereResource(resource);  
+          
+        long nCount = notificationService.countNewPopup(new Long(userId));  
+        List<Notification> notifications = notificationService.findMostRecentPopup(new Long(userId));  
+        List<String> response = new ArrayList<String>();  
+        response.add(""+nCount);  
+        for (Notification n:notifications) {  
+            response.add(n.getMessage());  
+        }  
+        return response;  
+    }  
+} 

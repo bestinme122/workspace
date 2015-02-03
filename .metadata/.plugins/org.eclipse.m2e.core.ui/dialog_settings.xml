@@ -56,8 +56,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="C:\Users\Trongnv\Documents\rest-chat"/>
 			<item value="C:\Users\Trongnv\Documents\atmosphere-samples-master"/>
+			<item value="C:\Users\Trongnv\Documents\rest-chat"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
